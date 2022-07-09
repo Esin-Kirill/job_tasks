@@ -1,8 +1,7 @@
 from configs import *
+from datetime import date, timedelta
 import os
 import pandas as pd
-import requests
-from datetime import date, timedelta
 import requests
 import time
 import urllib3
