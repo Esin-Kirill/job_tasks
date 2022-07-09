@@ -2,7 +2,7 @@
 
 ## Description
 This repository contains code examples that were created by my own while working in different companies.
-Some information were hidden and marked as "<replaced>" due to confidential reasons.
+Some information were hidden and marked as "replaced" due to confidential reasons.
 
 ## Technology stack
 Most of scripts are written in Python. But I'm also familiar with SQL (T-SQL, PostgreSQL), Cassandra (CQL), ElasticSearch, JavaScript, HTML, Machine Learning and some other technologies.
