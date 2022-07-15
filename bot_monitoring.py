@@ -62,14 +62,9 @@ def check_methods(tip, methods):
     check = {}
     for method in methods:
         code = requests.get(method, headers=HEADERS).status_code
-        if code != 200:
-            name = method.split('/')[7].split('?')[0]
-            name = tip + DICT_METHODS[name]
-            check[name] = False
-        else:
-            name = method.split('/')[7].split('?')[0]
-            name = tip + DICT_METHODS[name]
-            check[name] = True
+        name = method.split('/')[7].split('?')[0]
+        name = tip + DICT_METHODS[name]
+        check[name] = False if code != 200 else True
     
     return check
 
